@@ -81,7 +81,7 @@ print(df)
 
 ## 3. Importing Specific Functions
 
-Instead of importing the entire library, you can import only the functions you need using from.
+Instead of importing the entire library, you can import only the functions you need using `from`.
 
 **Example: Importing Specific Functions**
 
