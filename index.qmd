@@ -16,6 +16,21 @@ editor_options:
 
 # Importing Libraries in Python  
 
+Sometimes, Python's basic syntax isn't the most intuitive or doesn't offer the simplest way to accomplish certain tasks. For example, to calculate a square root in Python, you can raise a number to the power of 0.5.
+
+```{pyodide}
+#| autorun: false
+#| startover: false
+#| min-lines: 3
+#| completion: true
+
+result = 25 ** 0.5  
+print(result)  # Output: 5.0
+
+```
+
+That's not intuitive. That's why we use **libraries**.
+
 In Python, **libraries** (also called modules or packages) contain pre-written code that you can use to simplify your work. Instead of writing everything from scratch, you can **import** libraries to access functions, classes, and tools for various tasks such as data analysis, web development, and machine learning.  
 
 ---
